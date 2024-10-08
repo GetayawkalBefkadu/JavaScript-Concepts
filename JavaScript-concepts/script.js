@@ -1,3 +1,3 @@
-// lets us start from data types 
-// number
-console.log("3")
+function sayHello() {
+  alert('Hello from script.js!');
+}
