@@ -13,3 +13,6 @@ function greet() {
 
 greet(); // Calling the function
 
+for (let i = 0; i < 5; i++) {
+  console.log(`Iteration ${i}`);
+}
