@@ -6,3 +6,10 @@ const age = 30; // Number
 var isStudent = true; // Boolean
 
 console.log(name, age, isStudent);
+
+function greet() {
+  console.log('Hello, there!');
+}
+
+greet(); // Calling the function
+
