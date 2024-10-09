@@ -1,3 +1,7 @@
+// this are just the basics of javascript concepts and it will be updated and applay them ont the real projects!!
+// for now see the basics and applay them on your consol
+// Thank You!!!
+
 function sayHello() {
   alert('Hello from script.js!');
 }
