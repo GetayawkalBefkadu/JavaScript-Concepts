@@ -26,3 +26,13 @@ if (score >= 90) {
 } else {
   console.log('C');
 }
+
+
+
+var greeting = "Hello";
+let name = "Alice";
+const age = 25;
+
+console.log(greeting); // Output: Hello
+console.log(name);     // Output: Alice
+console.log(age);      // Output: 25
