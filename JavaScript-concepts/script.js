@@ -31,8 +31,25 @@ if (score >= 90) {
 
 var greeting = "Hello";
 let name = "Alice";
+
 const age = 25;
 
 console.log(greeting); // Output: Hello
 console.log(name);     // Output: Alice
 console.log(age);      // Output: 25
+
+
+
+
+function checkScope() {
+  if (true) {
+    var functionScope = 'I am visible within the function';
+    let blockScope = 'I am visible only in this block';
+    const anotherBlockScope = 'I am also visible only in this block';
+  }
+  console.log(functionScope); // Output: I am visible within the function
+  console.log(blockScope);    // Error: blockScope is not defined
+  console.log(anotherBlockScope); // Error: anotherBlockScope is not defined
+}
+
+checkScope();
