@@ -81,3 +81,15 @@ if (fruit !== "banana") {
     console.log(fruit);   
 }
 console.log(fruit);  
+
+
+
+let x = 1;
+
+function addTwo() {
+    x = x + 2;
+}
+
+addTwo();
+x = x + 1;
+console.log(x);
