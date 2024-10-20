@@ -1,5 +1,6 @@
 // this are just the basics of javascript concepts and it will be updated and applay them ont the real projects!!
 // for now see the basics and applay them on your consol. and trust the process 
+// try the script or the function separetly in ordoer to see the specfic result
 // Thank You!!!
 
 function sayHello() {
