@@ -93,3 +93,16 @@ function addTwo() {
 addTwo();
 x = x + 1;
 console.log(x);
+
+
+
+const catSays = function(max) {
+  let catMessage = "";
+  for (let i = 0; i < max; i++) {
+    catMessage += "meow ";
+  }
+  return catMessage;
+};
+
+catSays;
+
