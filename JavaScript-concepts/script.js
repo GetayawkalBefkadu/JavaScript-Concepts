@@ -105,4 +105,12 @@ const catSays = function(max) {
 };
 
 catSays;
+// --------------------------------------------
+function makeLine(length) {
+  var let = "";
+  for (let j = 1; j <= length; j++) {
+    line += "* "
+  }
+  return line + "\n";
+}
 
