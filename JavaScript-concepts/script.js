@@ -6,6 +6,13 @@ let count = 10;                 // Number
 let isActive = true;           // Boolean
 let user = { name: "Bob", age: 30 }; // Object
 let numbers = [1, 2, 3, 4, 5]; // Array
+//----------------------------------------------
+function greet(name) {
+    return `Hello, ${name}!`;
+}
+
+console.log(greet("Alice")); // Output: Hello, Alice!
+//----------------------------------------------
 
 
 
