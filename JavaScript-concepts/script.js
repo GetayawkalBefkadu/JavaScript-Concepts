@@ -44,6 +44,15 @@ let fruits = ["apple", "banana", "cherry"];
 console.log(car.make); // Output: Toyota
 console.log(fruits[1]); // Output: banana
 //----------------------------------------------
+let promise = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        resolve("Data received!");
+    }, 2000);
+});
+
+promise.then((message) => {
+    console.log(message); // Output after 2 seconds: Data received!
+});
 
 
 
