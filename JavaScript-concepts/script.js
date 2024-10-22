@@ -34,6 +34,16 @@ while (i < 5) {
     i++;
 }
 //----------------------------------------------
+let car = {
+    make: "Toyota",
+    model: "Corolla",
+    year: 2020
+};
+
+let fruits = ["apple", "banana", "cherry"];
+console.log(car.make); // Output: Toyota
+console.log(fruits[1]); // Output: banana
+//----------------------------------------------
 
 
 
