@@ -53,7 +53,60 @@ let promise = new Promise((resolve, reject) => {
 promise.then((message) => {
     console.log(message); // Output after 2 seconds: Data received!
 });
+//----------------------------------------------
+try {
+    throw new Error("Something went wrong!");
+} catch (error) {
+    console.log(error.message); // Output: Something went wrong!
+}
 
+const add = (a, b) => a + b;
+console.log(add(2, 3)); // Output: 5
+//----------------------------------------------
+<button id="myButton">Click me!</button>
+<script>
+    document.getElementById("myButton").addEventListener("click", function() {
+        alert("Button was clicked!");
+    });
+</script>
+
+//----------------------------------------------
+let globalVar = "I'm global";
+
+function myFunction() {
+    let localVar = "I'm local";
+    console.log(globalVar); // Accessible
+    console.log(localVar);   // Accessible
+}
+
+myFunction();
+console.log(globalVar); // Accessible
+// console.log(localVar); // Uncaught ReferenceError: localVar is not defined
+
+//----------------------------------------------
+console.log(myVar); // Output: undefined
+var myVar = 5;
+
+function myFunc() {
+    console.log(myFuncVar); // Output: undefined
+    var myFuncVar = 10;
+}
+myFunc();
+
+//----------------------------------------------
+const person = {
+    name: "Alice",
+    greet() {
+        console.log(`Hello, ${this.name}`);
+    }
+};
+
+person.greet(); // Output: Hello, Alice
+
+const greetFunction = person.greet;
+greetFunction(); // Output: Hello, undefined (in non-strict mode)
+
+//----------------------------------------------
 
 
 
