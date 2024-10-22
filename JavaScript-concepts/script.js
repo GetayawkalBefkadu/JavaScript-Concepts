@@ -1,5 +1,12 @@
 let name = "Alice"; // Mutable variable
 const age = 25;    // Immutable variable
+//----------------------------------------------
+let message = "Hello, world!"; // String
+let count = 10;                 // Number
+let isActive = true;           // Boolean
+let user = { name: "Bob", age: 30 }; // Object
+let numbers = [1, 2, 3, 4, 5]; // Array
+
 
 
 
