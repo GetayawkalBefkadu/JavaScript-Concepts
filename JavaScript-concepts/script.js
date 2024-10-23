@@ -136,6 +136,10 @@ function sum(...numbers) {
 console.log(sum(1, 2, 3, 4)); // Output: 10
 
 //----------------------------------------------
+let name = "Alice";
+let greeting = `Hello, ${name}! Welcome to JavaScript.`;
+console.log(greeting); // Output: Hello, Alice! Welcome to JavaScript.
+
 //----------------------------------------------
 //----------------------------------------------
 //----------------------------------------------
