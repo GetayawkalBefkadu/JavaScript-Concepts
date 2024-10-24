@@ -141,6 +141,13 @@ let greeting = `Hello, ${name}! Welcome to JavaScript.`;
 console.log(greeting); // Output: Hello, Alice! Welcome to JavaScript.
 
 //----------------------------------------------
+// your code goes here
+const breakfast = {
+    name: "The Lumberjack",
+    price: "$9.95",
+    ingredients: ["eggs", "sausage", "toast", "hashbrowns", "pancakes"]
+};
+console.log(breakfast);
 //----------------------------------------------
 //----------------------------------------------
 //----------------------------------------------
